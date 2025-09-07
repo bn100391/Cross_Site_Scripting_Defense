@@ -15,8 +15,8 @@ to this type of attack, as well as some others.
 
 ➤ **Input Whitelisting**:** This service only allows input of a certain nature, specifically preventing JavaScript from being injected into it. 
 
-➤ **HTTP Strict-Transport Security Policy**:** This means that connections can only be made to the service using HTT**S**, which means that all of the application data is encrypted when being sent
-between devices. Which means that someone cannot simply take a packet sniffer and intercept, and then read the contents of the transmissions
+➤ **HTTP Strict-Transport Security Policy**:** This means that connections can only be made to the service using HTTP**S**, which means that all of the application data is encrypted when being sent
+between devices. Which means that someone cannot simply take a packet sniffer and intercept the transmissions, and then make sense of their contents. 
 
 ➤ **Content Security Policy (Set To Self)**:** This means that this service will only load scripts comming from it's own domain, providing an extra layer of security against cross-site scripting attacks. 
 
